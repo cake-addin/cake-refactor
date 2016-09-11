@@ -1,8 +1,10 @@
-﻿using System;
+﻿
 using Microsoft.CodeAnalysis.MSBuild;
-               
-namespace Cake.Refactor.Tests {
-	public class MyClass {
+using System.Linq;
+
+namespace Cake.Refactor.Tests
+{
+	public class LoadSpec {
 
 		public void ShouldReadProjectFile() {
 			var projectPath = "../../LearnRoslynNow.Tests.csproj";
