@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Refactor", "Cake.Refactor\Cake.Refactor.csproj", "{A9972776-C80F-4850-B2F6-5E308ACC5CD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Refactor.Tests", "Cake.Refactor.Tests\Cake.Refactor.Tests.csproj", "{997E1CE4-9289-4896-98DA-BB76A32A285A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Refactor.TestProject", "Cake.Refactor.TestProject\Cake.Refactor.TestProject.csproj", "{4341582A-60F7-490A-8059-15265FF3EBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +22,12 @@ Global
 		{997E1CE4-9289-4896-98DA-BB76A32A285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997E1CE4-9289-4896-98DA-BB76A32A285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997E1CE4-9289-4896-98DA-BB76A32A285A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4341582A-60F7-490A-8059-15265FF3EBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4341582A-60F7-490A-8059-15265FF3EBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4341582A-60F7-490A-8059-15265FF3EBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4341582A-60F7-490A-8059-15265FF3EBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
